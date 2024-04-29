@@ -1,8 +1,18 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
+import Script from 'next/script'
+import Head from 'next/head'
 
-const inter = Inter({ subsets: ["latin"] });
+import { Inter } from "next/font/google";
+
+import "../../public/assets/vendor/aos/aos.css" 
+import "../../public/assets/vendor/bootstrap/css/bootstrap.min.css"
+import "../../public/assets/vendor/bootstrap-icons/bootstrap-icons.css"
+import "../../public/assets/vendor/boxicons/css/boxicons.min.css"
+import "../../public/assets/vendor/glightbox/css/glightbox.min.css"
+import "../../public/assets/vendor/swiper/swiper-bundle.min.css"
+import "../../public/assets/css/style.css"
+
+const inter = Inter({ subsets: ["latin"] }) ;
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,8 +25,100 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
-    </html>
+    <>
+      <html>
+      <Head>
+      <meta charSet="utf-8" />
+      <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+      <title>iPortfolio Bootstrap Template - Index</title>
+      <meta content="" name="deScription" />
+      <meta content="" name="keywords" />
+
+      {/* <!-- Favicons --> */}
+      <link href="assets/img/favicon.png" rel="icon" />
+      <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+      {/* <!-- Google Fonts --> */}
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet" />
+
+      </Head>
+
+      <body>
+
+        {/* <!-- ======= Mobile nav toggle button ======= --> */}
+        <i className="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+        {/* <!-- ======= Header ======= --> */}
+        <header id="header">
+          <div className="d-flex flex-column">
+
+            <div className="profile">
+              <img src="assets/img/image.jpg" alt="" className="img-fluid rounded-circle" />
+              <h1 className="text-light"><a href="index.html">Payal Thakur</a></h1>
+              <div className="social-links mt-3 text-center">
+                <a href="https://twitter.com/PayalThaku79621" className="twitter"><i className="bx bxl-twitter"></i></a>
+                <a href="https://www.facebook.com/payal.dhumale" className="facebook"><i className="bx bxl-facebook"></i></a>
+                <a href="https://www.instagram.com/mrs_cutiee__/" className="instagram"><i className="bx bxl-instagram"></i></a>
+                <a href="https://join.skype.com/invite/prxltGmiag3L" className="google-plus"><i className="bx bxl-skype"></i></a>
+                <a href="https://www.linkedin.com/in/payal-thakur-09j23j02j/" className="linkedin"><i className="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+
+            <nav id="navbar" className="nav-menu navbar">
+              <ul>
+                <li><a href="#hero" className="nav-link scrollto active"><i className="bx bx-home"></i> <span>Home</span></a></li>
+                <li><a href="#about" className="nav-link scrollto"><i className="bx bx-user"></i> <span>About</span></a></li>
+                <li><a href="#resume" className="nav-link scrollto"><i className="bx bx-file-blank"></i> <span>Resume</span></a></li>
+                <li><a href="#portfolio" className="nav-link scrollto"><i className="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+                <li><a href="#contact" className="nav-link scrollto"><i className="bx bx-envelope"></i> <span>Contact</span></a></li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+
+        {/* <!-- ======= Hero Section ======= --> */}
+        <section id="hero" className="d-flex flex-column justify-content-center align-items-center">
+          <div className="hero-container">
+            <h1>Payal Thakur</h1>
+            <p>I'm <span className="typed" data-typed-items="Designer, Developer, Freelancer"></span></p>
+          </div>
+        </section>
+        {children}
+        {/* <!-- ======= Footer ======= --> */}
+        {/* <footer id="footer">
+          <div className="container">
+            <div className="copyright">
+              &copy; Copyright <strong><span>iPortfolio</span></strong>
+            </div>
+            <div className="credits">
+              <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div>
+          </div>
+        </footer> */}
+
+        <a href="#" className="back-to-top d-flex align-items-center justify-content-center"><i className="bi bi-arrow-up-short"></i></a>
+
+        {/* <!-- Vendor JS Files --> */}
+        <Script src="assets/vendor/purecounter/purecounter_vanilla.js" />
+        <Script src="assets/vendor/aos/aos.js" />
+        <Script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js" />
+        <Script src="assets/vendor/glightbox/js/glightbox.min.js" />
+        <Script src="assets/vendor/isotope-layout/isotope.pkgd.min.js" />
+        <Script src="assets/vendor/swiper/swiper-bundle.min.js" />
+        <Script src="assets/vendor/typed.js/typed.umd.js" />
+        <Script src="assets/vendor/waypoints/noframework.waypoints.js" />
+        <Script src="assets/vendor/php-email-form/validate.js" />
+
+        {/* <!-- Template Main JS File --> */}
+        <Script src="assets/js/main.js" />
+
+      </body>
+      </html>
+    </>
   );
 }
