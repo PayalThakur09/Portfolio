@@ -10,7 +10,7 @@ export default function Home() {
 
             <div className="section-title">
               <h2>About</h2>
-              <p>Welcome to my corner of the web! I'm Payal Thakur, a dedicated and creative web developer passionate about bringing ideas to life in the digital realm. With a strong foundation in languages like HTML, CSS and JavaScript, I thrive on the challenges of crafting elegant and functional websites that leave a lasting impression. Whether it's building responsive layouts, optimizing for performance, or diving into the latest frontend frameworks, I'm always excited to push the boundaries of what's possible in web development. Let's collaborate and create something extraordinary together. </p>
+              <p>Welcome to my corner of the web! I am Payal Thakur, a dedicated and creative web developer passionate about bringing ideas to life in the digital realm. With a strong foundation in languages like HTML, CSS and JavaScript, I thrive on the challenges of crafting elegant and functional websites that leave a lasting impression. Whether it is building responsive layouts, optimizing for performance, or diving into the latest frontend frameworks, I am always excited to push the boundaries of what is possible in web development. Let us collaborate and create something extraordinary together. </p>
             </div>
 
             <div className="row">
@@ -153,7 +153,7 @@ export default function Home() {
                   <h4>Master in Full Stack Developer with AWS</h4>
                   <h5>2022 - 2024</h5>
                   <p><em>IT Vedant, IT Training Institute, Mumbai, Maharashtra, India</em></p>
-                  <p>During my Master's program at IT Vedant, I delved deep into the world of full-stack development, gaining comprehensive knowledge in both front-end and back-end technologies. Through hands-on projects and immersive learning experiences, I honed my skills in various programming languages and frameworks, acquiring a solid foundation in theoretical concepts as well as practical application. This intensive program equipped me with the expertise needed to develop dynamic and scalable web applications, preparing me for a successful career in the field of software development.</p>
+                  <p>During my Masters program at IT Vedant, I delved deep into the world of full-stack development, gaining comprehensive knowledge in both front-end and back-end technologies. Through hands-on projects and immersive learning experiences, I honed my skills in various programming languages and frameworks, acquiring a solid foundation in theoretical concepts as well as practical application. This intensive program equipped me with the expertise needed to develop dynamic and scalable web applications, preparing me for a successful career in the field of software development.</p>
                 </div>
                 <div className="resume-item">
                   <h4>Bachlor of Electronics Engineering </h4>
@@ -274,7 +274,7 @@ export default function Home() {
 
             <div className="section-title">
               <h2>Contact</h2>
-              <p>If you're interested in collaborating or have any inquiries, please don't hesitate to get in touch. You can reach me via email, or connect with me on LinkedIn. I look forward to hearing from you and discussing potential opportunities.</p>
+              <p>If you are interested in collaborating or have any inquiries, please do not hesitate to get in touch. You can reach me via email, or connect with me on LinkedIn. I look forward to hearing from you and discussing potential opportunities.</p>
             </div>
 
             <div className="row" >

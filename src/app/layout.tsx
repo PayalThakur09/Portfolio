@@ -81,7 +81,7 @@ export default function RootLayout({
         <section id="hero" className="d-flex flex-column justify-content-center align-items-center">
           <div className="hero-container">
             <h1>Payal Thakur</h1>
-            <p>I'm <span className="typed" data-typed-items="Designer, Developer, Freelancer"></span></p>
+            <p>I am <span className="typed" data-typed-items="Designer, Developer, Freelancer"></span></p>
           </div>
         </section>
         {children}
