@@ -224,6 +224,16 @@ export default function Home() {
 
               <div className="col-lg-4 col-md-6 portfolio-item">
                 <div className="portfolio-wrap">
+                  <img src="assets/img/portfolio/project-4.jpg" className="img-fluid" alt="" />
+                  <div className="portfolio-links">
+                    <a href="assets/img/portfolio/project-4.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="web"><i className="bx bx-plus"></i></a>
+                    <a href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-lg-4 col-md-6 portfolio-item">
+                <div className="portfolio-wrap">
                   <img src="assets/img/portfolio/project5.jpg" className="img-fluid" alt="" />
                   <div className="portfolio-links">
                     <a href="assets/img/portfolio/project5.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="aap"><i className="bx bx-plus"></i></a>
@@ -247,16 +257,6 @@ export default function Home() {
                   <img src="assets/img/portfolio/project2-1.jpg" className="img-fluid" alt="" />
                   <div className="portfolio-links">
                     <a href="assets/img/portfolio/project2-1.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="game"><i className="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-4 col-md-6 portfolio-item">
-                <div className="portfolio-wrap">
-                  <img src="assets/img/portfolio/project-4.jpg" className="img-fluid" alt="" />
-                  <div className="portfolio-links">
-                    <a href="assets/img/portfolio/project-4.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="web"><i className="bx bx-plus"></i></a>
                     <a href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
                   </div>
                 </div>
