@@ -217,7 +217,7 @@ export default function Home() {
                   <img src="assets/img/portfolio/project1-1.jpg" className="img-fluid" alt="" />
                   <div className="portfolio-links">
                     <a href="assets/img/portfolio/project1-1.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Web"><i className="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
+                    <a href="https://github.com/PayalThakur09/Web_Project_MyOnlineMeal" title="More Details"><i className="bx bx-link"></i></a>
                   </div>
                 </div>
               </div>
@@ -227,7 +227,7 @@ export default function Home() {
                   <img src="assets/img/portfolio/project-4.jpg" className="img-fluid" alt="" />
                   <div className="portfolio-links">
                     <a href="assets/img/portfolio/project-4.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="web"><i className="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
+                    <a href="https://portfolio-jtf7-git-master-payal-thakurs-projects.vercel.app/" title="More Details"><i className="bx bx-link"></i></a>
                   </div>
                 </div>
               </div>
@@ -247,7 +247,7 @@ export default function Home() {
                   <img src="assets/img/portfolio/project3.jpg" className="img-fluid" alt="" />
                   <div className="portfolio-links">
                     <a href="assets/img/portfolio/project3.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="app"><i className="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
+                    <a href="https://github.com/PayalThakur09/Converter-Project" title="More Details"><i className="bx bx-link"></i></a>
                   </div>
                 </div>
               </div>
@@ -257,7 +257,7 @@ export default function Home() {
                   <img src="assets/img/portfolio/project2-1.jpg" className="img-fluid" alt="" />
                   <div className="portfolio-links">
                     <a href="assets/img/portfolio/project2-1.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="game"><i className="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
+                    <a href="https://github.com/PayalThakur09/CoreJava_Project" title="More Details"><i className="bx bx-link"></i></a>
                   </div>
                 </div>
               </div>
