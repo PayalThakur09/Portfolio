@@ -237,7 +237,7 @@ export default function Home() {
                   <img src="assets/img/portfolio/project5.jpg" className="img-fluid" alt="" />
                   <div className="portfolio-links">
                     <a href="assets/img/portfolio/project5.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="aap"><i className="bx bx-plus"></i></a>
-                    <a href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
+                    <a href="https://github.com/PayalThakur09/instagram_clone/tree/master" title="More Details"><i className="bx bx-link"></i></a>
                   </div>
                 </div>
               </div>
